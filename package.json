@@ -1,0 +1,14 @@
+{
+  "name": "flaky-tests-lab",
+  "version": "1.0.0",
+  "description": "A Node.js service with intermittently failing tests for the flaky test investigation lesson.",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
